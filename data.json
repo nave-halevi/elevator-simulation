@@ -1,0 +1,54 @@
+
+{
+    "Game_manager":{
+        "screen_width" : 1700,
+        "screen_height": 1000
+    },
+
+    "Street":{
+        "padding_building" : 20
+
+    },
+
+    "Building" :{
+        "ele_y_axis": 1000,
+        "ele_x_axis": 200
+    },
+
+    "Floor":{
+        "img_path": "WhatsApp Image 2024-05-29 at 15.20.54.jpeg",
+        "button_pos" : [0, 0, 30, 25],
+        "font": [0, 0, 26, 21],
+        "line_width": 133,
+        "text_size": 30,
+        "timer_pos_y" : 150,
+        "line_height": 7, 
+        "wait_time":2
+        
+
+    },
+
+    "Elevator":{
+        "speed" : 70,
+        "time_wait": 2,
+        "img_path": "elv.png",
+        "sound": "ding.mp3"
+    },
+
+    "Colors":{
+        "white": [255, 255, 255],
+        "green": [0, 255, 0],
+        "black": [0,0,0],
+        "red_roof":[186, 6, 6],
+        "light_blue":[0, 255, 255]
+        },
+
+    "Global_variables":{
+        "hight_floor": 35,
+        "width_elevator": 35,
+        "width_floor" : 135,
+        "screen_height": 1000,
+        "width_floor_with_line": 200
+
+    }
+}
